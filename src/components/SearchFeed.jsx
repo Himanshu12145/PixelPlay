@@ -3,7 +3,7 @@ import { Box, Typography } from "@mui/material";
 import Videos from "./Videos";
 import { fetchFromApi } from "../utils/fetchFromApi";
 import { useParams } from "react-router-dom";
-import Loader from "./Loader";
+// import Loader from "./Loader";
 
 const SearchFeed = () => {
   const [videos, setVideos] = useState([]);
@@ -13,7 +13,7 @@ const SearchFeed = () => {
     fetchFromApi(`search?part=snippet&q=${searchTerm}`).then((data) =>
       setVideos(data.items)
     );
-    if (!setVideos?.snippet) return <Loader />;
+    // if (!setVideos?.snippet) return <Loader />;
   }, [searchTerm]);
 
   return (

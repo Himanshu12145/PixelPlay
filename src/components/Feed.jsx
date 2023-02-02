@@ -32,7 +32,11 @@ const Feed = () => {
         <Typography
           className="copyright"
           variant="body2"
-          sx={{ mt: 1.5, color: "#fff" }}
+          sx={{
+            display: { xs: "none", md: "block" },
+            mt: 1.5,
+            color: "#fff",
+          }}
         >
           Copyright © PixelPlay
         </Typography>

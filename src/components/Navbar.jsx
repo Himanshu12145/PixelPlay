@@ -1,3 +1,4 @@
+import { Box } from "@mui/material";
 import { Stack } from "@mui/system";
 import { Link } from "react-router-dom";
 
@@ -18,17 +19,21 @@ const Navbar = () => (
     <Link to="/" style={{ display: "flex", alignItems: "center" }}>
       <img src={logo} alt="logo" height={45} />
     </Link>
-    {/* <span
-      style={{
-        marginLeft: "0px",
-        paddingLeft: "0px",
+    <Box
+      sx={{
+        display: { flex: 1, xs: "none", md: "block" },
+
+        justifyContent: "flex-start",
+        alignItems: "flex-start",
+        marginLeft: "1rem",
+        // paddingLeft: "0px",
         color: "whitesmoke",
         fontWeight: "bold",
-        fontSize: "2.5rem",
+        fontSize: "3rem",
       }}
     >
       PixelPlay
-    </span> */}
+    </Box>
     <SearchBar />
   </Stack>
 );
