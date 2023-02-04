@@ -6,7 +6,7 @@ import { fetchFromApi } from "../utils/fetchFromApi";
 // import Loader from "./Loader";
 
 const Feed = () => {
-  const [selectedCategory, setSelectedCategory] = useState("New");
+  const [selectedCategory, setSelectedCategory] = useState("Explore");
   const [videos, setVideos] = useState([]);
 
   useEffect(() => {

@@ -11,20 +11,30 @@ import GraphicEqIcon from "@mui/icons-material/GraphicEq";
 import TheaterComedyIcon from "@mui/icons-material/TheaterComedy";
 import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
-import Person3Icon from "@mui/icons-material/Person3";
+import TrendingUpIcon from "@mui/icons-material/TrendingUp";
+import StreamIcon from "@mui/icons-material/Stream";
+import FlightIcon from "@mui/icons-material/Flight";
+import WhatshotIcon from "@mui/icons-material/Whatshot";
+import YoutubeSearchedForIcon from "@mui/icons-material/YoutubeSearchedFor";
+// import Person3Icon from "@mui/icons-material/Person3";
 
 export const logo = "https://i.ibb.co/s9Qys2j/logo.png";
 
 export const categories = [
+  { name: "Explore", icon: <WhatshotIcon /> },
   { name: "New", icon: <HomeIcon /> },
-  { name: "Hitesh Choudhary", icon: <Person3Icon /> },
-  { name: "Coding", icon: <CodeIcon /> },
+  { name: "Trending", icon: <TrendingUpIcon /> },
+  { name: "Streaming Now", icon: <StreamIcon /> },
+  { name: "Mostly Searched", icon: <YoutubeSearchedForIcon /> },
+  { name: "Airplanes", icon: <FlightIcon /> },
+  // { name: "Hitesh Choudhary", icon: <Person3Icon /> },
   { name: "ReactJS", icon: <CodeIcon /> },
   // { name: "NextJS", icon: <CodeIcon /> },
   { name: "Music", icon: <MusicNoteIcon /> },
   { name: "Education", icon: <SchoolIcon /> },
   { name: "Podcast", icon: <GraphicEqIcon /> },
   { name: "Movie", icon: <OndemandVideoIcon /> },
+  { name: "Coding", icon: <CodeIcon /> },
   { name: "Gaming", icon: <SportsEsportsIcon /> },
   { name: "Live", icon: <LiveTvIcon /> },
   { name: "Sport", icon: <FitnessCenterIcon /> },
@@ -35,11 +45,12 @@ export const categories = [
   { name: "Crypto", icon: <DeveloperModeIcon /> },
 ];
 
-export const demoThumbnailUrl = "https://i.ibb.co/G2L2Gwp/API-Course.png";
-export const demoChannelUrl = "/channel/UCmXmlB4-HJytD7wek0Uo97A";
-export const demoVideoUrl = "/video/GDa8kZLNhJ4";
-export const demoChannelTitle = "JavaScript Mastery";
+export const demoThumbnailUrl =
+  "https://fastly.picsum.photos/id/259/640/360.jpg?hmac=s0C9ursYEo0VeeP67Hb-QGhrKZDz50Ois6v-Ztu5FV0";
+export const demoChannelUrl = "/channel/UCj22tfcQrWG7EMEKS0qLeEg";
+export const demoVideoUrl = "/video/IoTL9xZOdP0";
+export const demoChannelTitle = "Trending video for all students";
 export const demoVideoTitle =
-  "Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI";
+  "Trending video for all students that have a video which has very new features!!";
 export const demoProfilePicture =
   "http://dergipark.org.tr/assets/app/images/buddy_sample.png";

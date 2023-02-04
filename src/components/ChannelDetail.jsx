@@ -8,7 +8,7 @@ import { fetchFromApi } from "../utils/fetchFromApi";
 const ChannelDetail = () => {
   const [channelDetail, setChannelDetail] = useState();
   const [videos, setVideos] = useState([]);
-  const banner = "";
+  // const banner = "";
   const { id } = useParams();
 
   useEffect(() => {
@@ -28,15 +28,15 @@ const ChannelDetail = () => {
     fetchResults();
   }, [id]);
 
-  console.log(channelDetail?.brandingSettings);
-  console.log(channelDetail?.brandingSettings?.image.bannerExternalUrl);
+  // console.log(channelDetail?.brandingSettings);
+  // console.log(channelDetail?.brandingSettings?.image.bannerExternalUrl);
   return (
     <Box minHeight="95vh">
       <Box>
         <Box
           component="img"
           sx={{
-            height: "300px",
+            height: { md: "400px", xs: "300px" },
             width: "100%",
             zIndex: 10,
             // width: 350,

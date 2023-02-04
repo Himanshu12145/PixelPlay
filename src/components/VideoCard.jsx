@@ -3,7 +3,7 @@ import { Typography, Card, CardContent, CardMedia } from "@mui/material";
 import { CheckCircle } from "@mui/icons-material";
 import {
   demoChannelTitle,
-  demoThumbnailUrl,
+  // demoThumbnailUrl,
   demoChannelUrl,
   demoVideoUrl,
   demoVideoTitle,
